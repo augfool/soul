@@ -14,7 +14,7 @@
 # limitations under the License.
 
 server:
-  port: 8884
+  port: 8885
   address: 0.0.0.0
 
 spring:
