@@ -140,7 +140,12 @@
             <artifactId>soul-spring-boot-starter-plugin-sofa</artifactId>
             <version>${project.version}</version>
         </dependency>
-
+        <dependency>
+            <groupId>com.alipay.sofa</groupId>
+            <artifactId>sofa-rpc-all</artifactId>
+            <version>5.7.6</version>
+        </dependency>
+        <!--soul sofa plugin end-->
 
         <!--soul alibaba dubbo plugin start-->
         <dependency>
@@ -220,6 +225,13 @@
         <dependency>
             <groupId>org.dromara</groupId>
             <artifactId>soul-spring-boot-starter-sync-data-http</artifactId>
+            <version>${project.version}</version>
+        </dependency>
+
+        <!--soul data sync start use nacos-->
+        <dependency>
+            <groupId>org.dromara</groupId>
+            <artifactId>soul-spring-boot-starter-sync-data-nacos</artifactId>
             <version>${project.version}</version>
         </dependency>
 
