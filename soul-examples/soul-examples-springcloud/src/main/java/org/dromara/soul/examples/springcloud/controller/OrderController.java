@@ -27,6 +27,8 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
+import com.alibaba.csp.sentinel.annotation.SentinelResource;
+
 /**
  * OrderController.
  *
@@ -58,6 +60,7 @@ public class OrderController {
      */
     @GetMapping("/findById")
     @SoulSpringCloudClient(path = "/findById")
+    @SentinelResource(value = "/order/findById")
     public OrderDTO findById(@RequestParam("id") final String id) {
         OrderDTO orderDTO = new OrderDTO();
         orderDTO.setId(id);

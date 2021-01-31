@@ -176,27 +176,27 @@
         <!-- soul  alibaba dubbo plugin end-->
 
         <!-- soul ratelimiter plugin start-->
-        <dependency>
-            <groupId>org.dromara</groupId>
-            <artifactId>soul-spring-boot-starter-plugin-ratelimiter</artifactId>
-            <version>${project.version}</version>
-        </dependency>
+<!--        <dependency>-->
+<!--            <groupId>org.dromara</groupId>-->
+<!--            <artifactId>soul-spring-boot-starter-plugin-ratelimiter</artifactId>-->
+<!--            <version>${project.version}</version>-->
+<!--        </dependency>-->
         <!-- soul ratelimiter plugin end-->
 
         <!-- soul hystrix plugin start-->
-        <dependency>
-            <groupId>org.dromara</groupId>
-            <artifactId>soul-spring-boot-starter-plugin-hystrix</artifactId>
-            <version>${project.version}</version>
-        </dependency>
+<!--        <dependency>-->
+<!--            <groupId>org.dromara</groupId>-->
+<!--            <artifactId>soul-spring-boot-starter-plugin-hystrix</artifactId>-->
+<!--            <version>${project.version}</version>-->
+<!--        </dependency>-->
         <!-- soul hystrix plugin end-->
 
         <!-- soul waf plugin starter-->
-        <dependency>
-            <groupId>org.dromara</groupId>
-            <artifactId>soul-spring-boot-starter-plugin-waf</artifactId>
-            <version>${project.version}</version>
-        </dependency>
+<!--        <dependency>-->
+<!--            <groupId>org.dromara</groupId>-->
+<!--            <artifactId>soul-spring-boot-starter-plugin-waf</artifactId>-->
+<!--            <version>${project.version}</version>-->
+<!--        </dependency>-->
         <!-- soul waf plugin end-->
 
         <!-- soul monitor plugin starter-->
@@ -256,6 +256,14 @@
             <artifactId>soul-spring-boot-starter-plugin-resilience4j</artifactId>
             <version>${project.version}</version>
         </dependency>
+
+        <!-- soul sentinel plugin start-->
+        <dependency>
+            <groupId>org.dromara</groupId>
+            <artifactId>soul-spring-boot-starter-plugin-sentinel</artifactId>
+            <version>${project.version}</version>
+        </dependency>
+        <!-- soul sentinel plugin end-->
 
     </dependencies>
 
