@@ -47,8 +47,8 @@ soul :
 #             url: localhost:2181
 #             sessionTimeout: 5000
 #             connectionTimeout: 2000
-#        http:
-#             url : http://localhost:9095
+        http:
+             url : http://localhost:9095
 #        nacos:
 #              url: localhost:8848
 #              namespace: 1c10d748-af86-43b9-8265-75f487d20c6c
@@ -70,10 +70,10 @@ eureka:
 
 logging:
     level:
-        root: info
+        root: debug
         org.springframework.boot: info
         org.apache.ibatis: info
         org.dromara.soul.bonuspoint: info
         org.dromara.soul.lottery: info
-        org.dromara.soul: info
+        org.dromara.soul: debug
 
